@@ -37,7 +37,11 @@ function showBannerInstall(){
 
     bannerInstall = null;
 }
+
+window.onload = function() {
+  showBannerInstall()
+};
+
+
 //clique do botao
-btnBannerInstall.addEventListener('fetch', showBannerInstall);
-
-
+btnBannerInstall.addEventListener('click', showBannerInstall);
