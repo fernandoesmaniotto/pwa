@@ -39,6 +39,7 @@ function showBannerInstall(){
 }
 
 window.addEventListener("load", e => {
+	alert("dd")
   showBannerInstall();
 });
 
