@@ -7,12 +7,6 @@ if ('serviceWorker' in navigator){
         .then(function () {
             console.log('Service worker está registrado!');
         });
-		
-	caches.keys().then(function(cacheNames) {
-    cacheNames.forEach(function(cacheName) {
-      caches.delete(cacheName);
-    });
-  });
 }
 
 //evento disparado para instalar a aplicacao
@@ -43,5 +37,7 @@ function showBannerInstall(){
 
     bannerInstall = null;
 }
+
+window.addEventListener('load', showBannerInstall)
 //clique do botao
 btnBannerInstall.addEventListener('click', showBannerInstall);

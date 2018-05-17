@@ -1,6 +1,6 @@
 {
-  "name": "Meu Primeiro PWA",
-  "short_name": "MP PWA",
+  "name": "Meu Primeiro PWA1",
+  "short_name": "MP PWA1",
   "icons": [
     {
       "src": "src/images/icons/app-icon-48x48.png",
@@ -44,7 +44,7 @@
   "orientation": "portrait-primary",
   "background_color": "#fff",
   "theme_color": "#f3ca2f",
-  "description": "Iniciando com PWA",
+  "description": "Iniciando com PWA1",
   "dir": "ltr",
   "lang": "pt-br"
 }
