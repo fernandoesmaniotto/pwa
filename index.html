@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">  
-  <title>Meu Primeiro PWA</title>
+  <title>SorteApp</title>
   <link rel="shortcut icon" href="src/images/icons/favicon.png">
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -18,11 +18,10 @@
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">        
-        <span class="mdl-layout-title">Meu Primeiro PWA</span>            
+        <span class="mdl-layout-title">SorteApp - PWA</span>            
       </div>      
     </header>
     <main class="mdl-layout__content mat-typography"> 
-      <img src="src/images/pwa.png" alt="Aqui tem uma imagem" class="main-image">       
           <div class="mdl-grid">
             <div class="mdl-grid center-items">
               <div class="mdl-cell mdl-cell--12-col">
@@ -49,7 +48,7 @@
 		  }
 	  }
     numArray.push( Math.floor((Math.random() * 40 ) + 1) );
-    $('#numero').html( numArray.join("<br />") );
+    $('#numero').html("Seu número da sorte é:"+numArray);
   });
 </script>
 </body>
