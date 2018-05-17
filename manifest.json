@@ -1,6 +1,6 @@
 {
-  "name": "Meu Primeiro PWA1",
-  "short_name": "MP PWA1",
+  "name": "SorteApp",
+  "short_name": "SorteApp",
   "icons": [
     {
       "src": "src/images/icons/app-icon-48x48.png",
@@ -42,9 +42,9 @@
   "scope": "/",
   "display": "standalone",
   "orientation": "portrait-primary",
-  "background_color": "#fff",
-  "theme_color": "#f3ca2f",
-  "description": "Iniciando com PWA1",
+  "background_color": "#9AA0A8",
+  "theme_color": "#00487C",
+  "description": "Aplicativo para sortear números",
   "dir": "ltr",
   "lang": "pt-br"
 }
