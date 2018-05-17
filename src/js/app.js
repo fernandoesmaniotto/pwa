@@ -38,4 +38,6 @@ function showBannerInstall(){
     bannerInstall = null;
 }
 //clique do botao
-btnBannerInstall.addEventListener('click', showBannerInstall);
+btnBannerInstall.addEventListener('fetch', showBannerInstall);
+
+
