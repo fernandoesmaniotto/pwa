@@ -37,11 +37,5 @@ function showBannerInstall(){
 
     bannerInstall = null;
 }
-
-window.addEventListener("load", e => {
-	alert("dd")
-  showBannerInstall();
-});
-
 //clique do botao
 btnBannerInstall.addEventListener('click', showBannerInstall);
